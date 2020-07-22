@@ -25,5 +25,18 @@ public class TrackCoach implements Coach {
 		// TODO Auto-generated method stub
 		return "Good job fellas- Track";
 	}
+	
+	//add startup method
+	public void doMyStartupStuff() {
+		System.out.println("I am in doMyStartupStuff init method. ");
+
+		
+	}
+	
+	//add destroy method
+public void doMyCleanupStuffYoYo() {
+	System.out.println("I am in doMyCleanupStuffYoYo destroy method. ");
+		
+	}
 
 }
